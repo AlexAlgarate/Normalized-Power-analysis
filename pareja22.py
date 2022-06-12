@@ -108,9 +108,9 @@ plt.title('Power distribution Pareja Triatlon')
 plt.legend(loc=7)  # Location: Center right
 plt.show()
 
-'''df1 = df['watts']
+df1 = df['watts']
 ax3 = df1.plot.hist(figsize=(10, 6), bins=7,
                     color='blue', alpha=0.45, label='Power Zones')
 plt.title("Power Zones Pareja's Triathlon")
-plt.xlabel('Power(w)')
-plt.show()'''
+plt.xlabel('Watts (Power')
+plt.show()
